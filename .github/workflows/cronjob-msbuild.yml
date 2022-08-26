@@ -1,13 +1,13 @@
 name: MSBuild
 
 on:
-  push:
-    branches: [ "master" ]
+  #push:
+   # branches: [ "master" ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
-  schedule:
-    - cron: '* * * * *'
+  #schedule:
+   # - cron: '* * * * *'
 env:
   # Path to the solution file relative to the root of the project.
   SOLUTION_FILE_PATH: .
